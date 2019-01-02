@@ -38,7 +38,7 @@ response='y'
 echo '当前的 Gmail 为：'$cemail
 echo '当前的 APPID 为：'$cappid
 
-if [ ! $cemail = "akindleear@gmail.com" -o ! $cappid = "kindleear" ]
+if [ ! $cemail = "zwei.kindle@gmail.com" -o ! $cappid = "kindleear-willz" ]
 then
     read -r -p "是否修改 APP 信息? [y/N] " response
 fi
